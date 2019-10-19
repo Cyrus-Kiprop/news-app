@@ -1,0 +1,81 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    background: #305565
+   
+  }
+  .card {
+    width: 50%;
+    display: block;
+    margin: 60px auto;
+    box-shadow: 5px 2px 2px 2px #2d1896;
+    transition: 0.25s;
+  }
+  .card:hover {
+    width:53%;
+    cursor: pointer;
+  }
+  .card:hover .button-primary {
+    transform: translate(10px, 0);
+  }
+  .card-header {
+    height: 350px;
+    width: 100%;
+    padding: 15px;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+  }
+  .card-header--title {
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .card-body {
+    padding: 15px;
+    background-color: #fff;
+    width: 100%;
+  }
+  .date {
+    font-size: 11px;
+    font-weight: 600;
+    color: grey;
+  }
+  .body-content {
+    padding-bottom: 40px;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .button-primary {
+    border: none;
+    box-shadow: none;
+    font-family: inherit;
+    background-color: transparent;
+    color: #341cac;
+    font-size: 15px;
+    transition: 0.25s;
+  }
+  .button-primary i {
+    padding-right: 4px;
+  }
+  .designer-link {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+  }
+  .button-primary  a{
+  text-decoration: none;
+}
+.button-primary  :hover{
+  color: red;
+}
+
+.particles {
+  position: fixed;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
